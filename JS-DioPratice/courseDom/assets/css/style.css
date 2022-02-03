@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+body{
+	background-color: #e5e8e8;
+	color: #4e545c;
+	margin: 0;
+	font-family: 'Quicksand';
+	background-image: url("../img/anakim2.jpeg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+}
+
+body.dark-mode {
+	background-color: #000401;
+	color: #e5e8e8;
+	background-image: url('../img/vader2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-size: 100%;
+}
+
+main {
+	height: 20vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+footer {
+	width: 100%;
+	background-color: #2f3135c2;
+	padding: 7px;
+	color: #e5e8e8;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	font-weight: 400;
+}
+
+footer.dark-mode {
+	background-color: #cccfcfe8;
+	color: #0a0000;
+}
+
+button {
+	border-radius: 40px;
+	font-size: 1.5rem;
+	height: 60px;
+	width: 200px;
+	border: 1px solid beige;
+	background-color: #4e545c;
+	color: #e5e8e8;
+	transition: all 0.5s linear;
+}
+
+button:hover {
+	background-color: #000401;
+}
+
+button.dark-mode {
+	background-color: #e5e8e8;
+	color: #4e545c;
+}
+
+button.dark-mode:hover {
+	background-color: #4e545c;
+	color: #e5e8e8;
+}
